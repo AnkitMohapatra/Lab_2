@@ -6,5 +6,5 @@ int main() {
 float p,r,t,n;
 cout << "Enter Principal Amount, Rate of Interest,Time Period & Number of Times Interest is Compounded per Year respectively : ";
 cin >> p >> r >> t >> n;
-cout << "Simple Interest = " << pow((p*(r/n)),(n*t)); 
+cout << "Compound Interest = " << pow((p*(r/n)),(n*t)); 
 }
